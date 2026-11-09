@@ -2693,6 +2693,18 @@ section,
     width: 100%;
     text-align: center;
   }
+
+  .numbered-list {
+    list-style-type: decimal;
+    list-style-position: outside;
+    padding-left: 30px;
+    text-align: left;
+}
+
+  .numbered-list li {
+    display: list-item;
+    list-style-type: decimal;
+}
 }
 
 /*--------------------------------------------------------------
