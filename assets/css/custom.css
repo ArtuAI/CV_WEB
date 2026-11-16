@@ -1,0 +1,263 @@
+
+/* Nauji šriftai */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Rajdhani:wght@400;500;600;700&display=swap');
+
+
+/* A. Pagrindinis svetainės šriftas */
+body {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.7;
+    color: #e2e8f0;
+}
+
+
+/* B. Antraščių stiliai */
+h1, h2 {
+    font-family: 'Bungee Shade', cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 44px;
+    color: #38bdf8;
+}
+
+h2 {
+    font-size: 34px;
+    color: #ffffff;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 29px;
+    font-weight: 700;
+    color: #38bdf8;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h5 {
+    font-size: 21px;
+    font-weight: 600;
+    color: #7dd3fc;
+}
+
+h6 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #a1a1aa;
+}
+
+
+/* C. Pastraipų stilius */
+p {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: #cbd5e1;
+    line-height: 1.8;
+    letter-spacing: 0.4px;
+    margin-bottom: 18px;
+}
+
+
+/* Papildomai: sąrašų tekstas */
+li {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+
+/* ===================================
+   A. MYGTUKŲ STILIUS
+=================================== */
+
+button,
+.btn {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: #38bdf8;
+    background-color: transparent;
+    border: 2px solid #38bdf8;
+    border-radius: 6px;
+
+    padding: 12px 28px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+
+/* Užvedus pelės žymeklį */
+button:hover,
+.btn:hover {
+    background-color: #0284c7;
+    border-color: #7dd3fc;
+    color: #ffffff;
+
+    box-shadow: 0 0 18px #0284c7;
+    transform: translateY(-3px);
+}
+
+
+/* Paspaudus mygtuką */
+button:active,
+.btn:active {
+    background-color: #075985;
+    color: #ffffff;
+
+    transform: scale(0.96);
+    box-shadow: 0 0 5px #0284c7;
+}
+
+
+
+/* ===================================
+   B. NUORODŲ STILIUS
+=================================== */
+
+a:not(.btn) {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    color: #38bdf8;
+    text-decoration: none;
+
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+
+/* Užvedus ant nuorodos */
+a:not(.btn):hover {
+    color: #ffffff;
+    border-bottom-color: #38bdf8;
+    text-shadow: 0 0 8px #38bdf8;
+}
+
+
+/* Paspaudus nuorodą */
+a:not(.btn):active {
+    color: #7dd3fc;
+}
+
+
+
+/* =====================================
+   A. SEKCIJŲ TARPŲ KEITIMAS
+===================================== */
+
+/* Apie mane */
+#about {
+    margin-bottom: 30px;
+    padding: 70px 35px;
+}
+
+/* Patirtis */
+#resume {
+    margin-bottom: 40px;
+    padding: 80px 35px;
+}
+
+/* Atlikti darbai */
+#portfolio {
+    margin-bottom: 35px;
+    padding: 75px 35px;
+}
+
+
+/* Tarpai tarp sekcijų antraščių ir turinio */
+#about .section-title,
+#resume .section-title,
+#portfolio .section-title {
+    margin-bottom: 35px;
+    padding-bottom: 20px;
+}
+
+
+
+/* =====================================
+   B. TURINIO BLOKŲ DIZAINAS
+===================================== */
+
+/* APIE MANE */
+#about .content {
+    background-color: #1b2635;
+    padding: 30px;
+    margin-top: 20px;
+
+    border: 1px solid #38bdf8;
+    border-radius: 16px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);
+}
+
+
+/* PATIRTIS */
+#resume .resume-item {
+    background-color: #1b2635;
+    padding: 25px;
+    margin-bottom: 25px;
+
+    border: 1px solid #334155;
+    border-left: 4px solid #38bdf8;
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+/* ATLIKTI DARBAI */
+#portfolio .portfolio-item {
+    background-color: #1b2635;
+    padding: 15px;
+    margin-bottom: 25px;
+
+    border: 1px solid #334155;
+    border-radius: 15px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Paveikslėlių kampai */
+#portfolio .portfolio-item img {
+    border-radius: 10px;
+}
+
+
+
+/* Kortelių animacijos */
+#resume .resume-item,
+#portfolio .portfolio-item {
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+/* Užvedus pelę */
+#resume .resume-item:hover,
+#portfolio .portfolio-item:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 12px 30px rgba(56, 189, 248, 0.2);
+}
